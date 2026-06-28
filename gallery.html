@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CodeWithKenneth - Gallery</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/courses">Courses</a>
+        <a href="/order">Order</a>
+        <a href="/contact">Contact</a>
+        <a href="/gallery">Gallery</a>
+    </nav>
+
+    <img src="{{ url_for('static', filename='images/gallery.jpg') }}" width="100%">
+
+    <h1>Project Gallery</h1>
+    <p>Check out amazing projects built in CodeWithKenneth!</p>
+
+    <h2>🎮 Snake Game</h2>
+    <p>A classic Snake game built with Pygame on Android.</p>
+
+    <h2>🚀 Space Shooter</h2>
+    <p>A fun Space Shooter game built with Pygame.</p>
+
+    <h2>🌐 Flask Website</h2>
+    <p>A full website built with Flask on Android.</p>
+
+    <h2>🧠 Brain Test Game</h2>
+    <p>A fun quiz game built with Python on Android.</p>
+
+    <a href="/order"><button>Join Us Today</button></a>
+</body>
+</html>

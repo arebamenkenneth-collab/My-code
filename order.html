@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CodeWithKenneth - Order</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/courses">Courses</a>
+        <a href="/order">Order</a>
+        <a href="/contact">Contact</a>
+        <a href="/gallery">Gallery</a>
+    </nav>
+
+    <img src="{{ url_for('static', filename='images/order.jpg') }}" width="100%">
+
+    <h1>Enroll Now</h1>
+    <p>Ready to start your Python journey?</p>
+    <p>Join our beginner Python class today!</p>
+
+    <h2>What You Get</h2>
+    <p>Access to our WhatsApp group</p>
+    <p>Daily lessons and exercises</p>
+    <p>Personal support from Kenneth</p>
+    <p>Projects to build your portfolio</p>
+
+    <form method="POST" action="/order">
+        <label>Your Name:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <label>Your Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Your Phone:</label><br>
+        <input type="tel" name="phone"><br><br>
+
+        <label>Choose Course:</label><br>
+        <select name="course">
+            <option>Beginner Python</option>
+            <option>Pygame Game Development</option>
+            <option>Flask Web Development</option>
+        </select><br><br>
+
+        <button type="submit">Enroll Now</button>
+    </form>
+</body>
+</html>

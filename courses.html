@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CodeWithKenneth - Courses</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/courses">Courses</a>
+        <a href="/order">Order</a>
+        <a href="/contact">Contact</a>
+        <a href="/gallery">Gallery</a>
+    </nav>
+
+    <img src="{{ url_for('static', filename='images/courses.jpg') }}" width="100%">
+
+    <h1>Our Python Courses</h1>
+
+    <h2>🐍 Beginner Python</h2>
+    <p>Learn Python from scratch on your phone.</p>
+    <p>Variables, loops, functions and more!</p>
+    <p>💰 Price: Free</p>
+
+    <h2>🎮 Pygame Game Development</h2>
+    <p>Build fun games using Python and Pygame.</p>
+    <p>All on your Android phone!</p>
+    <p>💰 Price: ₦2,000</p>
+
+    <h2>🌐 Flask Web Development</h2>
+    <p>Build real websites using Python and Flask.</p>
+    <p>No laptop needed!</p>
+    <p>💰 Price: ₦3,000</p>
+
+    <a href="/order"><button>Enroll Now</button></a>
+</body>
+</html>

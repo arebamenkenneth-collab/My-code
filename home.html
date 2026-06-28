@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CodeWithKenneth - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/courses">Courses</a>
+        <a href="/order">Order</a>
+        <a href="/contact">Contact</a>
+        <a href="/gallery">Gallery</a>
+    </nav>
+
+    <img src="{{ url_for('static', filename='images/kenneth.jpg') }}" width="100%">
+
+    <h1>Welcome to CodeWithKenneth!</h1>
+    <p>Learn Python coding on your phone.</p>
+    <p>No laptop needed. Just your Android phone!</p>
+    <p>Join our WhatsApp and Telegram groups today.</p>
+    <p>Follow us on TikTok: @kennethbuilds1</p>
+
+    <a href="/order"><button>Enroll Now</button></a>
+</body>
+</html>

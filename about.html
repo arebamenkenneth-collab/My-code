@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CodeWithKenneth - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/courses">Courses</a>
+        <a href="/order">Order</a>
+        <a href="/contact">Contact</a>
+        <a href="/gallery">Gallery</a>
+    </nav>
+
+    <img src="{{ url_for('static', filename='images/about.jpg') }}" width="100%">
+
+    <h1>About Kenneth</h1>
+    <p>My name is Kenneth and I teach Python programming.</p>
+    <p>I code entirely on my Android phone using Pydroid 3.</p>
+    <p>My mission is to show that you don't need a laptop to learn coding.</p>
+
+    <h2>My Story</h2>
+    <p>I started coding on my phone with no laptop and no money for a computer.</p>
+    <p>I taught myself Python and now I teach others to do the same.</p>
+
+    <h2>My Achievements</h2>
+    <p>✅ Built games with Pygame on Android</p>
+    <p>✅ Built websites with Flask on Android</p>
+    <p>✅ Teaching students Python on their phones</p>
+    <p>✅ Growing on TikTok @Kennethbuilds1</p>
+
+    <a href="/order"><button>Join My Class</button></a>
+</body>
+</html>
