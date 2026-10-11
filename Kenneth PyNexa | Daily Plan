@@ -1,0 +1,731 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://timetablesetup.vercel.app/
+Subject: Kenneth PyNexa | Daily Plan
+Date: Tue, 29 Sep 2026 01:42:09 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--D187toFC8WAkldAmUWLTZrhjV3duzbllQsZdLmDOR3----"
+
+
+------MultipartBoundary--D187toFC8WAkldAmUWLTZrhjV3duzbllQsZdLmDOR3----
+Content-Type: text/html
+Content-ID: <frame-7999BAEB2A65043C798807D2C21D88AD@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://timetablesetup.vercel.app/
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-8acd5289-7c45-47af-8a13-4b9a717336ab@mhtml.blink" />
+
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0E1A40">
+<meta name="description" content="Kenneth PyNexa daily plan, JAMB tracker, coding tracker and phonk focus player">
+<link rel="manifest" href="https://timetablesetup.vercel.app/manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="https://timetablesetup.vercel.app/icons/icon-192.png">
+<link rel="apple-touch-icon" href="https://timetablesetup.vercel.app/icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="PyNexa">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Kenneth PyNexa | Daily Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Figtree:wght@400;500;600&amp;display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div id="toast" role="status" aria-live="polite" class="">Open the Chrome menu (three dots), then tap Install app.</div>
+
+
+
+<!-- TODAY -->
+<section class="tab" id="tab-today">
+  <header class="hero">
+    <div class="top">
+      <div class="brand">
+        <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="6" fill="#4C6BFF"></rect><rect x="10" y="10" width="20" height="20" rx="6" fill="#FFC933"></rect></svg>
+        <span>Kenneth PyNexa</span>
+      </div>
+      <span class="date" id="date">Tue 29 Sept</span>
+    </div>
+
+    
+
+    <div class="player" id="player">
+      <div class="prow">
+        <div class="cover" id="cover">
+          <svg id="coverArt" viewBox="0 0 120 120" aria-hidden="true">
+            <defs>
+              <linearGradient id="gBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14002b"></stop><stop offset=".6" stop-color="#5a0b45"></stop><stop offset="1" stop-color="#ff2e63"></stop></linearGradient>
+              <linearGradient id="gSun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffc933"></stop><stop offset="1" stop-color="#ff2e63"></stop></linearGradient>
+              <clipPath id="cSun"><circle cx="60" cy="52" r="26"></circle></clipPath>
+            </defs>
+            <rect width="120" height="120" fill="url(#gBg)"></rect>
+            <circle cx="60" cy="52" r="26" fill="url(#gSun)"></circle>
+            <g clip-path="url(#cSun)" fill="#14002b"><rect x="30" y="56" width="60" height="2.2"></rect><rect x="30" y="62" width="60" height="3"></rect><rect x="30" y="69" width="60" height="4"></rect></g>
+            <path d="M0 84h120v36H0z" fill="#14002b"></path>
+            <g stroke="#B26BFF" stroke-width=".8" fill="none" opacity=".85"><path d="M0 90h120M0 97h120M0 106h120M0 117h120"></path><path d="M60 84L-30 120M60 84L0 120M60 84L30 120M60 84L60 120M60 84L90 120M60 84L120 120M60 84L150 120"></path></g>
+            <text x="9" y="19" font-family="Bricolage Grotesque,sans-serif" font-weight="800" font-size="14" fill="#00E5FF" opacity=".75">PHONK</text>
+            <text x="8" y="18" font-family="Bricolage Grotesque,sans-serif" font-weight="800" font-size="14" fill="#fff">PHONK</text>
+          </svg>
+          
+          <canvas id="viz" width="192" height="70"></canvas>
+        </div>
+        <div class="pinfo">
+          <div class="ptitle" id="pTitle">PyNexa Drift</div>
+          <div class="psub" id="pSub">Generated phonk, 140 BPM</div>
+          <div class="pctl">
+            <button id="pPrev" aria-label="Previous track"><svg viewBox="0 0 24 24"><path d="M6 5h2.500v14H6zM20 5v14L9.500 12z"></path></svg></button>
+            <button id="pPlay" class="play" aria-label="Play music"><svg viewBox="0 0 24 24" id="pPlayIcon"><path d="M8 5v14l11-7z"></path></svg></button>
+            <button id="pNext" aria-label="Next track"><svg viewBox="0 0 24 24"><path d="M15.500 5H18v14h-2.500zM4 5v14l10.500-7z"></path></svg></button>
+          </div>
+        </div>
+      </div>
+      <div class="pprog"><b id="pBar"></b></div>
+      <details class="plist">
+        <summary>Playlist, your music and cover</summary>
+        <ul class="trks" id="tracks"><li class="trk on"><button class="tname" data-i="0">PyNexa Drift</button></li></ul>
+        <div class="pbtns">
+          <button class="mini" id="pAddBtn">Add music</button>
+          <button class="mini" id="pCoverBtn">Change cover</button>
+          <button class="mini" id="pCoverReset">Reset cover</button>
+        </div>
+        <label class="chk"><input type="checkbox" id="autoMusic"> Start music with focus rounds</label>
+        <p class="hint">The built-in beat is made inside your phone. Music and cover you add stay on this phone only.</p>
+      </details>
+    </div>
+
+    <h1 id="hello">Good morning, Kenneth</h1>
+    <p class="sub" id="sub">Here is your plan for Tuesday.</p>
+    <svg id="dial" class="dial" viewBox="0 0 300 300" role="img" aria-label="Your 24 hour day as a dial"><circle cx="150" cy="150" r="118" fill="none" stroke="rgba(255,255,255,.07)" stroke-width="22"></circle><path class="arc on" d="M151.03 32.00A118 118 0 0 1 263.71 118.47" pathLength="1" stroke="#26346B" style="animation-delay:0.00s"></path><path class="arc" d="M264.24 120.46A118 118 0 0 1 266.85 133.58" pathLength="1" stroke="#2ED8A0" style="animation-delay:0.05s"></path><path class="arc" d="M267.12 135.62A118 118 0 0 1 267.12 164.38" pathLength="1" stroke="#4C6BFF" style="animation-delay:0.10s"></path><path class="arc" d="M266.85 166.42A118 118 0 0 1 264.24 179.54" pathLength="1" stroke="#2ED8A0" style="animation-delay:0.15s"></path><path class="arc" d="M263.71 181.53A118 118 0 0 1 181.53 263.71" pathLength="1" stroke="#6F7EA8" style="animation-delay:0.20s"></path><path class="arc" d="M179.54 264.24A118 118 0 0 1 156.18 267.84" pathLength="1" stroke="#4C6BFF" style="animation-delay:0.25s"></path><path class="arc" d="M154.12 267.93A118 118 0 0 1 135.62 267.12" pathLength="1" stroke="#FFC933" style="animation-delay:0.30s"></path><path class="arc" d="M133.58 266.85A118 118 0 0 1 120.46 264.24" pathLength="1" stroke="#FF7A4D" style="animation-delay:0.35s"></path><path class="arc" d="M118.47 263.71A118 118 0 0 1 32.00 151.03" pathLength="1" stroke="#6F7EA8" style="animation-delay:0.40s"></path><path class="arc" d="M32.00 148.97A118 118 0 0 1 35.76 120.46" pathLength="1" stroke="#2ED8A0" style="animation-delay:0.45s"></path><path class="arc" d="M36.29 118.47A118 118 0 0 1 40.59 105.80" pathLength="1" stroke="#2ED8A0" style="animation-delay:0.50s"></path><path class="arc" d="M41.38 103.89A118 118 0 0 1 51.32 85.30" pathLength="1" stroke="#A66BFF" style="animation-delay:0.55s"></path><path class="arc" d="M52.46 83.59A118 118 0 0 1 65.84 67.29" pathLength="1" stroke="#4C6BFF" style="animation-delay:0.60s"></path><path class="arc" d="M67.29 65.84A118 118 0 0 1 83.59 52.46" pathLength="1" stroke="#4C6BFF" style="animation-delay:0.65s"></path><path class="arc" d="M85.30 51.32A118 118 0 0 1 99.20 43.49" pathLength="1" stroke="#FFC933" style="animation-delay:0.70s"></path><path class="arc" d="M101.07 42.62A118 118 0 0 1 103.89 41.38" pathLength="1" stroke="#2ED8A0" style="animation-delay:0.75s"></path><path class="arc" d="M105.80 40.59A118 118 0 0 1 148.97 32.00" pathLength="1" stroke="#26346B" style="animation-delay:0.80s"></path><text x="150.0" y="12.0" text-anchor="middle" class="tick">12a</text><text x="292.0" y="154.0" text-anchor="middle" class="tick">6a</text><text x="150.0" y="296.0" text-anchor="middle" class="tick">12p</text><text x="8.0" y="154.0" text-anchor="middle" class="tick">6p</text><g id="hand" style="transform: rotate(25.5083deg);"><line x1="150" y1="52" x2="150" y2="34"></line><circle cx="150" cy="32" r="7"></circle></g><text id="dTime" x="150" y="152" text-anchor="middle" class="dtime">1:42 am</text><text id="dDone" x="150" y="178" text-anchor="middle" class="ddone">0 of 15 done</text></svg>
+  </header>
+
+  <div class="now" id="now" style="--c: #26346B;">
+    <div class="nowhead"><span class="chip" id="nowCat" style="background: rgb(38, 52, 107); color: rgb(255, 255, 255);">Sleep</span><span class="left" id="nowLeft">Wake-up in 3h 18m</span></div>
+    <h2 id="nowTitle">Sleep</h2>
+    <p class="pr" id="nowPrompt">Phone down. Good sleep is part of studying.</p>
+    <div class="pbar" id="nowBarWrap" style="display: none;"><b id="nowBar"></b></div>
+    <p class="next" id="nowNext">Next at 5:00 am: Wake up and pray</p>
+  </div>
+
+  
+
+  <p class="line" id="todayLine">Read one topic properly today. Tomorrow you will thank yourself.</p>
+
+  <div class="listhead"><h2>Your day</h2><span id="progText">0 of 15 done</span></div>
+  <div class="pbar big"><b id="progBar" style="width: 0%;"></b></div>
+  <ul class="list" id="list"><li><button class="item" style="--c:#2ED8A0" data-k="2:300" aria-pressed="false">
+      <span class="time">5:00 am<br>30m</span>
+      <span class="body"><h3>Wake up and pray</h3><p>Water, prayers, wash up. The phone waits.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#4C6BFF" data-k="2:330" aria-pressed="false">
+      <span class="time">5:30 am<br>1h</span>
+      <span class="body"><h3>JAMB: Physics</h3><p>Go and read Physics. One topic, full attention, phone on Do Not Disturb.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#2ED8A0" data-k="2:390" aria-pressed="false">
+      <span class="time">6:30 am<br>30m</span>
+      <span class="body"><h3>Breakfast and travel</h3><p>Eat well. Your brain runs on it.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#6F7EA8" data-k="2:420" aria-pressed="false">
+      <span class="time">7:00 am<br>4h</span>
+      <span class="body"><h3>Teaching</h3><p>Give your students your best. Teaching is revision too.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#4C6BFF" data-k="2:660" aria-pressed="false">
+      <span class="time">11:00 am<br>50m</span>
+      <span class="body"><h3>Free time: past questions</h3><p>Open your phone and do Chemistry past questions. Time yourself like the real CBT.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#FFC933" data-k="2:710" aria-pressed="false">
+      <span class="time">11:50 am<br>40m</span>
+      <span class="body"><h3>Code: HTML and CSS</h3><p>Write real HTML and CSS code on your phone. Type it, run it, fix it.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#FF7A4D" data-k="2:750" aria-pressed="false">
+      <span class="time">12:30 pm<br>30m</span>
+      <span class="body"><h3>Reply business messages</h3><p>Answer clients and leads. Short, clear, professional.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#6F7EA8" data-k="2:780" aria-pressed="false">
+      <span class="time">1:00 pm<br>5h</span>
+      <span class="body"><h3>Teaching</h3><p>Eat lunch in between, then finish strong.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#2ED8A0" data-k="2:1080" aria-pressed="false">
+      <span class="time">6:00 pm<br>1h</span>
+      <span class="body"><h3>House chores</h3><p>Finish fast. Music on, then focus.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#2ED8A0" data-k="2:1140" aria-pressed="false">
+      <span class="time">7:00 pm<br>30m</span>
+      <span class="body"><h3>Dinner and rest</h3><p>Eat, sit down, breathe.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#A66BFF" data-k="2:1170" aria-pressed="false">
+      <span class="time">7:30 pm<br>45m</span>
+      <span class="body"><h3>ESHEddy Management: company time</h3><p>Next task: Home page.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#4C6BFF" data-k="2:1215" aria-pressed="false">
+      <span class="time">8:15 pm<br>45m</span>
+      <span class="body"><h3>JAMB: Physics</h3><p>Go and read Physics. One topic, full attention, phone on Do Not Disturb.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#4C6BFF" data-k="2:1260" aria-pressed="false">
+      <span class="time">9:00 pm<br>45m</span>
+      <span class="body"><h3>JAMB: Chemistry</h3><p>Go and read Chemistry. One topic, full attention, phone on Do Not Disturb.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#FFC933" data-k="2:1305" aria-pressed="false">
+      <span class="time">9:45 pm<br>35m</span>
+      <span class="body"><h3>Code: HTML and CSS</h3><p>Write real HTML and CSS code on your phone. Type it, run it, fix it.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li><li><button class="item" style="--c:#2ED8A0" data-k="2:1340" aria-pressed="false">
+      <span class="time">10:20 pm<br>10m</span>
+      <span class="body"><h3>Plan tomorrow</h3><p>Write tomorrow's top 3 tasks. Then sleep.</p></span>
+      <span class="check"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></span>
+    </button></li></ul>
+
+  <div class="listhead"><h2>My extra tasks</h2><span id="taskCount"></span></div>
+  <div class="addrow big">
+    <input type="text" id="taskText" maxlength="80" placeholder="Add a task" aria-label="New task">
+    <input type="time" id="taskTime" aria-label="Reminder time (optional)">
+    <button class="addbtn" id="taskAdd">Add</button>
+  </div>
+  <ul class="list" id="taskList"><li class="empty">No extra tasks yet. Add one above, with a time if you want a reminder.</li></ul>
+  <div class="clearrow"></div>
+
+  <p class="foot">Sleep at 10:30 pm. A rested brain remembers more.</p>
+</section>
+
+<!-- WEEK -->
+<section class="tab" id="tab-week">
+  <div class="page">
+    <h1>Your week</h1>
+    <p class="lead">Two JAMB subjects and one coding focus each weekday. ESHEddy Management company time is every evening.</p>
+    <div id="weekList"><div class="week"><div class="dn">Monday</div><div class="chips"><span>Mathematics</span><span>English</span><span class="k">Python</span></div><div class="hrs">JAMB 3h 20m<br>Code 1h 15m</div></div><div class="week today"><div class="dn">Tuesday</div><div class="chips"><span>Physics</span><span>Chemistry</span><span class="k">HTML and CSS</span></div><div class="hrs">JAMB 3h 20m<br>Code 1h 15m</div></div><div class="week"><div class="dn">Wednesday</div><div class="chips"><span>Mathematics</span><span>Chemistry</span><span class="k">JavaScript</span></div><div class="hrs">JAMB 3h 20m<br>Code 1h 15m</div></div><div class="week"><div class="dn">Thursday</div><div class="chips"><span>Physics</span><span>English</span><span class="k">SQLite</span></div><div class="hrs">JAMB 3h 20m<br>Code 1h 15m</div></div><div class="week"><div class="dn">Friday</div><div class="chips"><span>Mixed past questions</span><span>Weak-topic review</span><span class="k">Supabase</span></div><div class="hrs">JAMB 3h 20m<br>Code 1h 15m</div></div><div class="week"><div class="dn">Saturday</div><div class="chips"><span>All four subjects</span><span>Timed mock test</span><span class="k">Build a website project</span></div><div class="hrs">JAMB 7h<br>Code 2h</div></div><div class="week"><div class="dn">Sunday</div><div class="chips"><span>All four subjects</span><span>Plan the week</span><span class="k">Git, GitHub and review</span></div><div class="hrs">JAMB 5h<br>Code 2h</div></div></div>
+    <p class="total" id="weekTotal">This week: JAMB 28h 40m, coding 10h 15m, ESHEddy Management 5h 45m. Adjust it if it feels too heavy, then keep it steady.</p>
+  </div>
+</section>
+
+<!-- JAMB -->
+<section class="tab" id="tab-jamb">
+  <div class="page">
+    <h1>JAMB tracker</h1>
+    <p class="lead">Tap a topic when you have finished studying it. Add your own topics too.</p>
+    <div class="count">
+      <div class="big" id="daysLeft">?</div>
+      <div class="tx" id="daysText">Set your exam date below.</div>
+      <label>Exam date<input type="date" id="examDate"></label>
+    </div>
+    <div class="ready"><span>Topics covered</span><span id="readyPct">0%</span></div>
+    <div class="pbar" style="margin:8px 4px 18px"><b id="readyBar" style="background: var(--mint); width: 0%;"></b></div>
+    <div id="jambMount"><details class="sub" data-gi="0" style="--c:#2B4BFF">
+        <summary><span class="sn">Mathematics</span><span class="sp">0 of 9</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="0" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Number bases and indices</span></button><button class="rm" data-gi="0" data-ii="0" aria-label="Remove Number bases and indices">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Algebra and equations</span></button><button class="rm" data-gi="0" data-ii="1" aria-label="Remove Algebra and equations">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Sequences and series</span></button><button class="rm" data-gi="0" data-ii="2" aria-label="Remove Sequences and series">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="3" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Trigonometry</span></button><button class="rm" data-gi="0" data-ii="3" aria-label="Remove Trigonometry">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="4" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Coordinate geometry</span></button><button class="rm" data-gi="0" data-ii="4" aria-label="Remove Coordinate geometry">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="5" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Differentiation</span></button><button class="rm" data-gi="0" data-ii="5" aria-label="Remove Differentiation">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="6" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Integration</span></button><button class="rm" data-gi="0" data-ii="6" aria-label="Remove Integration">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="7" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Statistics and probability</span></button><button class="rm" data-gi="0" data-ii="7" aria-label="Remove Statistics and probability">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="8" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Mensuration</span></button><button class="rm" data-gi="0" data-ii="8" aria-label="Remove Mensuration">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to Mathematics" data-gi="0" aria-label="Add an item to Mathematics"><button class="addbtn" data-gi="0">Add</button></li></ul></details><details class="sub" data-gi="1" style="--c:#FF7A4D">
+        <summary><span class="sn">English</span><span class="sp">0 of 6</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="1" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Comprehension</span></button><button class="rm" data-gi="1" data-ii="0" aria-label="Remove Comprehension">×</button></li><li class="trow"><button class="tp" data-gi="1" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Summary writing</span></button><button class="rm" data-gi="1" data-ii="1" aria-label="Remove Summary writing">×</button></li><li class="trow"><button class="tp" data-gi="1" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Lexis and structure</span></button><button class="rm" data-gi="1" data-ii="2" aria-label="Remove Lexis and structure">×</button></li><li class="trow"><button class="tp" data-gi="1" data-ii="3" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Oral forms (sounds and stress)</span></button><button class="rm" data-gi="1" data-ii="3" aria-label="Remove Oral forms (sounds and stress)">×</button></li><li class="trow"><button class="tp" data-gi="1" data-ii="4" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Grammar and sentence types</span></button><button class="rm" data-gi="1" data-ii="4" aria-label="Remove Grammar and sentence types">×</button></li><li class="trow"><button class="tp" data-gi="1" data-ii="5" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Idioms and figures of speech</span></button><button class="rm" data-gi="1" data-ii="5" aria-label="Remove Idioms and figures of speech">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to English" data-gi="1" aria-label="Add an item to English"><button class="addbtn" data-gi="1">Add</button></li></ul></details><details class="sub" data-gi="2" style="--c:#E6A800">
+        <summary><span class="sn">Physics</span><span class="sp">0 of 8</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="2" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Motion and Newton's laws</span></button><button class="rm" data-gi="2" data-ii="0" aria-label="Remove Motion and Newton's laws">×</button></li><li class="trow"><button class="tp" data-gi="2" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Work, energy and power</span></button><button class="rm" data-gi="2" data-ii="1" aria-label="Remove Work, energy and power">×</button></li><li class="trow"><button class="tp" data-gi="2" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Heat and temperature</span></button><button class="rm" data-gi="2" data-ii="2" aria-label="Remove Heat and temperature">×</button></li><li class="trow"><button class="tp" data-gi="2" data-ii="3" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Waves and sound</span></button><button class="rm" data-gi="2" data-ii="3" aria-label="Remove Waves and sound">×</button></li><li class="trow"><button class="tp" data-gi="2" data-ii="4" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Light and optics</span></button><button class="rm" data-gi="2" data-ii="4" aria-label="Remove Light and optics">×</button></li><li class="trow"><button class="tp" data-gi="2" data-ii="5" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Current electricity</span></button><button class="rm" data-gi="2" data-ii="5" aria-label="Remove Current electricity">×</button></li><li class="trow"><button class="tp" data-gi="2" data-ii="6" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Magnetism and electromagnetism</span></button><button class="rm" data-gi="2" data-ii="6" aria-label="Remove Magnetism and electromagnetism">×</button></li><li class="trow"><button class="tp" data-gi="2" data-ii="7" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Atomic and nuclear physics</span></button><button class="rm" data-gi="2" data-ii="7" aria-label="Remove Atomic and nuclear physics">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to Physics" data-gi="2" aria-label="Add an item to Physics"><button class="addbtn" data-gi="2">Add</button></li></ul></details><details class="sub" data-gi="3" style="--c:#12B886">
+        <summary><span class="sn">Chemistry</span><span class="sp">0 of 8</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="3" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Atomic structure and bonding</span></button><button class="rm" data-gi="3" data-ii="0" aria-label="Remove Atomic structure and bonding">×</button></li><li class="trow"><button class="tp" data-gi="3" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Mole concept and stoichiometry</span></button><button class="rm" data-gi="3" data-ii="1" aria-label="Remove Mole concept and stoichiometry">×</button></li><li class="trow"><button class="tp" data-gi="3" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Gases</span></button><button class="rm" data-gi="3" data-ii="2" aria-label="Remove Gases">×</button></li><li class="trow"><button class="tp" data-gi="3" data-ii="3" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Acids, bases and salts</span></button><button class="rm" data-gi="3" data-ii="3" aria-label="Remove Acids, bases and salts">×</button></li><li class="trow"><button class="tp" data-gi="3" data-ii="4" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Rates and equilibrium</span></button><button class="rm" data-gi="3" data-ii="4" aria-label="Remove Rates and equilibrium">×</button></li><li class="trow"><button class="tp" data-gi="3" data-ii="5" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Electrochemistry</span></button><button class="rm" data-gi="3" data-ii="5" aria-label="Remove Electrochemistry">×</button></li><li class="trow"><button class="tp" data-gi="3" data-ii="6" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Organic chemistry</span></button><button class="rm" data-gi="3" data-ii="6" aria-label="Remove Organic chemistry">×</button></li><li class="trow"><button class="tp" data-gi="3" data-ii="7" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Periodic table trends</span></button><button class="rm" data-gi="3" data-ii="7" aria-label="Remove Periodic table trends">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to Chemistry" data-gi="3" aria-label="Add an item to Chemistry"><button class="addbtn" data-gi="3">Add</button></li></ul></details></div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="tab" id="tab-work">
+  <div class="page">
+    <h1>Work</h1>
+    <p class="lead">ESHEddy Management tasks and your coding skills. Add, tick and remove anything.</p>
+    <h2 class="sec" style="margin-top:0">ESHEddy Management</h2>
+    <div id="companyMount"><details class="sub" data-gi="0" style="--c:#A66BFF" open="">
+        <summary><span class="sn">ESHEddy Management tasks</span><span class="sp">0 of 5</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="0" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Home page</span></button><button class="rm" data-gi="0" data-ii="0" aria-label="Remove Home page">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Talents page</span></button><button class="rm" data-gi="0" data-ii="1" aria-label="Remove Talents page">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Bookings</span></button><button class="rm" data-gi="0" data-ii="2" aria-label="Remove Bookings">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="3" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Admin dashboard</span></button><button class="rm" data-gi="0" data-ii="3" aria-label="Remove Admin dashboard">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="4" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Supabase tables and security policies</span></button><button class="rm" data-gi="0" data-ii="4" aria-label="Remove Supabase tables and security policies">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to ESHEddy Management tasks" data-gi="0" aria-label="Add an item to ESHEddy Management tasks"><button class="addbtn" data-gi="0">Add</button></li></ul></details></div>
+    <h2 class="sec">Coding skills</h2>
+    <div class="ready"><span>Topics covered</span><span id="codePct">0%</span></div>
+    <div class="pbar" style="margin:8px 4px 16px"><b id="codeBar" style="background: var(--sun); width: 0%;"></b></div>
+    <div id="codeMount"><details class="sub" data-gi="0" style="--c:#4C6BFF">
+        <summary><span class="sn">Python</span><span class="sp">0 of 8</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="0" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Variables and data types</span></button><button class="rm" data-gi="0" data-ii="0" aria-label="Remove Variables and data types">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Conditions and loops</span></button><button class="rm" data-gi="0" data-ii="1" aria-label="Remove Conditions and loops">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Functions</span></button><button class="rm" data-gi="0" data-ii="2" aria-label="Remove Functions">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="3" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Lists, dictionaries and sets</span></button><button class="rm" data-gi="0" data-ii="3" aria-label="Remove Lists, dictionaries and sets">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="4" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Files and errors</span></button><button class="rm" data-gi="0" data-ii="4" aria-label="Remove Files and errors">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="5" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Classes and objects</span></button><button class="rm" data-gi="0" data-ii="5" aria-label="Remove Classes and objects">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="6" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Flask basics</span></button><button class="rm" data-gi="0" data-ii="6" aria-label="Remove Flask basics">×</button></li><li class="trow"><button class="tp" data-gi="0" data-ii="7" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Pygame basics</span></button><button class="rm" data-gi="0" data-ii="7" aria-label="Remove Pygame basics">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to Python" data-gi="0" aria-label="Add an item to Python"><button class="addbtn" data-gi="0">Add</button></li></ul></details><details class="sub" data-gi="1" style="--c:#E6A800">
+        <summary><span class="sn">HTML</span><span class="sp">0 of 4</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="1" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Page structure and semantic tags</span></button><button class="rm" data-gi="1" data-ii="0" aria-label="Remove Page structure and semantic tags">×</button></li><li class="trow"><button class="tp" data-gi="1" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Forms and inputs</span></button><button class="rm" data-gi="1" data-ii="1" aria-label="Remove Forms and inputs">×</button></li><li class="trow"><button class="tp" data-gi="1" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Tables, images and media</span></button><button class="rm" data-gi="1" data-ii="2" aria-label="Remove Tables, images and media">×</button></li><li class="trow"><button class="tp" data-gi="1" data-ii="3" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Accessibility basics</span></button><button class="rm" data-gi="1" data-ii="3" aria-label="Remove Accessibility basics">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to HTML" data-gi="1" aria-label="Add an item to HTML"><button class="addbtn" data-gi="1">Add</button></li></ul></details><details class="sub" data-gi="2" style="--c:#12B886">
+        <summary><span class="sn">CSS</span><span class="sp">0 of 5</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="2" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Selectors and the box model</span></button><button class="rm" data-gi="2" data-ii="0" aria-label="Remove Selectors and the box model">×</button></li><li class="trow"><button class="tp" data-gi="2" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Flexbox</span></button><button class="rm" data-gi="2" data-ii="1" aria-label="Remove Flexbox">×</button></li><li class="trow"><button class="tp" data-gi="2" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Grid</span></button><button class="rm" data-gi="2" data-ii="2" aria-label="Remove Grid">×</button></li><li class="trow"><button class="tp" data-gi="2" data-ii="3" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Responsive design</span></button><button class="rm" data-gi="2" data-ii="3" aria-label="Remove Responsive design">×</button></li><li class="trow"><button class="tp" data-gi="2" data-ii="4" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Animations</span></button><button class="rm" data-gi="2" data-ii="4" aria-label="Remove Animations">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to CSS" data-gi="2" aria-label="Add an item to CSS"><button class="addbtn" data-gi="2">Add</button></li></ul></details><details class="sub" data-gi="3" style="--c:#FF7A4D">
+        <summary><span class="sn">JavaScript</span><span class="sp">0 of 5</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="3" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Variables and functions</span></button><button class="rm" data-gi="3" data-ii="0" aria-label="Remove Variables and functions">×</button></li><li class="trow"><button class="tp" data-gi="3" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>DOM and events</span></button><button class="rm" data-gi="3" data-ii="1" aria-label="Remove DOM and events">×</button></li><li class="trow"><button class="tp" data-gi="3" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Arrays and objects</span></button><button class="rm" data-gi="3" data-ii="2" aria-label="Remove Arrays and objects">×</button></li><li class="trow"><button class="tp" data-gi="3" data-ii="3" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Fetch and async/await</span></button><button class="rm" data-gi="3" data-ii="3" aria-label="Remove Fetch and async/await">×</button></li><li class="trow"><button class="tp" data-gi="3" data-ii="4" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Saving data in the browser</span></button><button class="rm" data-gi="3" data-ii="4" aria-label="Remove Saving data in the browser">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to JavaScript" data-gi="3" aria-label="Add an item to JavaScript"><button class="addbtn" data-gi="3">Add</button></li></ul></details><details class="sub" data-gi="4" style="--c:#A66BFF">
+        <summary><span class="sn">SQLite</span><span class="sp">0 of 5</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="4" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Create tables</span></button><button class="rm" data-gi="4" data-ii="0" aria-label="Remove Create tables">×</button></li><li class="trow"><button class="tp" data-gi="4" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>SELECT and WHERE</span></button><button class="rm" data-gi="4" data-ii="1" aria-label="Remove SELECT and WHERE">×</button></li><li class="trow"><button class="tp" data-gi="4" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>JOINs</span></button><button class="rm" data-gi="4" data-ii="2" aria-label="Remove JOINs">×</button></li><li class="trow"><button class="tp" data-gi="4" data-ii="3" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>INSERT, UPDATE and DELETE</span></button><button class="rm" data-gi="4" data-ii="3" aria-label="Remove INSERT, UPDATE and DELETE">×</button></li><li class="trow"><button class="tp" data-gi="4" data-ii="4" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Using SQLite with Python</span></button><button class="rm" data-gi="4" data-ii="4" aria-label="Remove Using SQLite with Python">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to SQLite" data-gi="4" aria-label="Add an item to SQLite"><button class="addbtn" data-gi="4">Add</button></li></ul></details><details class="sub" data-gi="5" style="--c:#F03E7E">
+        <summary><span class="sn">Supabase</span><span class="sp">0 of 5</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="5" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Create a project and tables</span></button><button class="rm" data-gi="5" data-ii="0" aria-label="Remove Create a project and tables">×</button></li><li class="trow"><button class="tp" data-gi="5" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Sign up and login (Auth)</span></button><button class="rm" data-gi="5" data-ii="1" aria-label="Remove Sign up and login (Auth)">×</button></li><li class="trow"><button class="tp" data-gi="5" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Row Level Security policies</span></button><button class="rm" data-gi="5" data-ii="2" aria-label="Remove Row Level Security policies">×</button></li><li class="trow"><button class="tp" data-gi="5" data-ii="3" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Storage buckets</span></button><button class="rm" data-gi="5" data-ii="3" aria-label="Remove Storage buckets">×</button></li><li class="trow"><button class="tp" data-gi="5" data-ii="4" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Connect from JavaScript</span></button><button class="rm" data-gi="5" data-ii="4" aria-label="Remove Connect from JavaScript">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to Supabase" data-gi="5" aria-label="Add an item to Supabase"><button class="addbtn" data-gi="5">Add</button></li></ul></details><details class="sub" data-gi="6" style="--c:#22A6F2">
+        <summary><span class="sn">Git and GitHub</span><span class="sp">0 of 3</span><i class="bar"><b style="width:0%"></b></i></summary>
+        <ul><li class="trow"><button class="tp" data-gi="6" data-ii="0" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Commit and push</span></button><button class="rm" data-gi="6" data-ii="0" aria-label="Remove Commit and push">×</button></li><li class="trow"><button class="tp" data-gi="6" data-ii="1" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Branches</span></button><button class="rm" data-gi="6" data-ii="1" aria-label="Remove Branches">×</button></li><li class="trow"><button class="tp" data-gi="6" data-ii="2" aria-pressed="false"><i><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.500l4.500 4.500L19 7.500"></path></svg></i><span>Deploy with GitHub Pages</span></button><button class="rm" data-gi="6" data-ii="2" aria-label="Remove Deploy with GitHub Pages">×</button></li><li class="addrow"><input type="text" maxlength="70" placeholder="Add to Git and GitHub" data-gi="6" aria-label="Add an item to Git and GitHub"><button class="addbtn" data-gi="6">Add</button></li></ul></details></div>
+    <div class="addrow newgroup">
+      <input type="text" id="newSkill" maxlength="40" placeholder="Add a skill, for example React" aria-label="New skill name">
+      <button class="addbtn" id="addSkill">Add skill</button>
+    </div>
+  </div>
+</section>
+
+<!-- BOOST -->
+<section class="tab on" id="tab-boost">
+  <div class="page">
+    <h1>Boost</h1>
+    <p class="lead">Read this when you feel like skipping a block.</p>
+    <div class="boost">
+      <blockquote id="quote">Read one topic properly today. Tomorrow you will thank yourself.</blockquote>
+      <button class="btn" id="boostBtn">Give me another</button>
+    </div>
+    <div class="row"><button class="btn dark" id="readNow">Go and read now</button></div>
+
+    <div class="rules">
+      <h2>Install and alerts</h2>
+      <div class="setrow"><div><b>Install the app</b><span class="st" id="installState">If the button does nothing, open the Chrome menu (three dots) and tap Install app.</span></div><button class="btn small" id="installBtn">Install</button></div>
+      <div class="setrow"><div><b>Notifications</b><span class="st" id="notifState">Blocked. Turn it on in Chrome, Site settings, Notifications.</span></div></div>
+      <div class="setrow"><div><b>Block reminders</b><span class="st">Alert me when each block or timed task starts. Works while the app is open or running in the background.</span></div><label class="switch"><input type="checkbox" id="remindChk" aria-label="Block reminders"><i></i></label></div>
+      <button class="btn dark" id="testNotif" style="width:100%">Send a test notification</button>
+    </div>
+
+    <div class="rules">
+      <h2>Rules for study blocks</h2>
+      <ol>
+        <li><b>Phone on Do Not Disturb.</b>Use it for past questions and notes only. No scrolling.</li>
+        <li><b>Do past questions every day.</b>Even ten minutes. JAMB is a timed CBT, so practise like one.</li>
+        <li><b>Protect your sleep.</b>Studying tired is slower than sleeping and studying fresh.</li>
+      </ol>
+    </div>
+    <div class="why">
+      <h2>My why</h2>
+      <textarea id="why" placeholder="Write the course and school you are aiming for, and why it matters to you."></textarea>
+    </div>
+    <p class="sign">Made for Kenneth PyNexa. Built to be used on a phone.</p>
+  </div>
+</section>
+
+<nav aria-label="Main">
+  <button data-t="today" aria-current="false"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>Today</button>
+  <button data-t="week" aria-current="false"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="3"></rect><path d="M4 10h16M9 3v4M15 3v4"></path></svg>Week</button>
+  <button data-t="jamb" aria-current="false"><svg viewBox="0 0 24 24"><path d="M4 5.500C7 4 10 4.500 12 6.500c2-2 5-2.500 8-1V19c-3-1.500-6-1-8 1-2-2-5-2.500-8-1z"></path><path d="M12 6.500V20"></path></svg>JAMB</button>
+  <button data-t="work" aria-current="false"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="3"></rect><path d="M9 7V5.500A1.500 1.500 0 0 1 10.500 4h3A1.500 1.500 0 0 1 15 5.500V7M3 13h18"></path></svg>Work</button>
+  <button data-t="boost" aria-current="true"><svg viewBox="0 0 24 24"><path d="M13 3L5 13.500h6L10 21l8-10.500h-6z"></path></svg>Boost</button>
+</nav>
+
+
+
+</body></html>
+------MultipartBoundary--D187toFC8WAkldAmUWLTZrhjV3duzbllQsZdLmDOR3----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 500; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGHInHWVyNJtvI.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 500; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGGInHWVyNJtvI.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 500; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInHWVyNJ.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 700; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGHInHWVyNJtvI.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 700; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGGInHWVyNJtvI.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 700; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInHWVyNJ.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 800; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGHInHWVyNJtvI.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 800; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGGInHWVyNJtvI.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 800; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInHWVyNJ.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Figtree; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4q9DaRvziissg.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Figtree; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4S9DaRvzig.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Figtree; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4q9DaRvziissg.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Figtree; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4S9DaRvzig.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Figtree; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4q9DaRvziissg.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Figtree; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/figtree/v9/_Xms-HUzqDCFdgfMm4S9DaRvzig.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--D187toFC8WAkldAmUWLTZrhjV3duzbllQsZdLmDOR3----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-8acd5289-7c45-47af-8a13-4b9a717336ab@mhtml.blink
+
+@charset "utf-8";
+
+:root { --ink: #0E1A40; --paper: #EEF2FA; --blue: #2B4BFF; --blue2: #4C6BFF; --sun: #FFC933; --mint: #2ED8A0; --coral: #FF7A4D; --violet: #A66BFF; --pink: #FF2E63; --slate: #6F7EA8; --muted: #56618C; --line: #DCE3F3; --soft: #A9B5DE; }
+
+* { box-sizing: border-box; margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; }
+
+[hidden] { display: none !important; }
+
+html { background: var(--paper); }
+
+body { font-family: Figtree, system-ui, sans-serif; color: var(--ink); background: var(--paper); max-width: 480px; margin: 0px auto; min-height: 100vh; padding-bottom: 96px; line-height: 1.45; }
+
+h1, h2, h3, .disp { font-family: "Bricolage Grotesque", Figtree, system-ui, sans-serif; letter-spacing: -0.015em; }
+
+button { font-family: inherit; color: inherit; cursor: pointer; }
+
+input, textarea { font-family: inherit; }
+
+:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+
+.tab { display: none; }
+
+.tab.on { display: block; animation: 0.35s ease 0s 1 normal none running tabin; }
+
+@keyframes tabin { 
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: none; }
+}
+
+.hero { background: var(--ink); color: rgb(255, 255, 255); padding: 20px 20px 64px; border-radius: 0px 0px 34px 34px; }
+
+.top { display: flex; align-items: center; gap: 10px; }
+
+.brand { display: flex; align-items: center; gap: 9px; font-family: "Bricolage Grotesque", system-ui, sans-serif; font-weight: 800; font-size: 19px; }
+
+.date { margin-left: auto; font-size: 13px; color: var(--soft); }
+
+.hero h1 { font-size: 31px; line-height: 1.08; font-weight: 800; margin: 22px 0px 4px; }
+
+.sub { color: var(--soft); font-size: 15px; }
+
+.dial { width: min(100%, 330px); display: block; margin: 12px auto 0px; overflow: visible; }
+
+.arc { fill: none; stroke-width: 22; stroke-dasharray: 1; stroke-dashoffset: 1; animation: 0.9s cubic-bezier(0.3, 0.7, 0.2, 1) 0s 1 normal forwards running draw; transition: stroke-width 0.3s; }
+
+.arc.on { stroke-width: 29; }
+
+@keyframes draw { 
+  100% { stroke-dashoffset: 0; }
+}
+
+#hand { transform-box: view-box; transform-origin: 150px 150px; transition: transform 2.2s cubic-bezier(0.3, 0.7, 0.2, 1); }
+
+#hand line { stroke: rgb(255, 255, 255); stroke-width: 3; stroke-linecap: round; }
+
+#hand circle { fill: rgb(255, 255, 255); stroke: var(--ink); stroke-width: 3; }
+
+.tick { fill: rgb(133, 147, 196); font: 600 11px Figtree, system-ui, sans-serif; }
+
+.dtime { fill: rgb(255, 255, 255); font: 800 34px "Bricolage Grotesque", Figtree, system-ui, sans-serif; }
+
+.ddone { fill: var(--soft); font: 500 14px Figtree, system-ui, sans-serif; }
+
+.install { margin-top: 16px; background: var(--sun); color: var(--ink); border-radius: 16px; padding: 10px 10px 10px 14px; display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; line-height: 1.3; }
+
+.install span { flex: 1 1 0%; }
+
+.ib { display: flex; gap: 6px; align-items: center; }
+
+.ibtn { border: 0px; border-radius: 11px; padding: 9px 13px; font-weight: 700; font-size: 14px; background: var(--ink); color: rgb(255, 255, 255); }
+
+.ibtn.ghost { background: rgba(14, 26, 64, 0.12); color: var(--ink); }
+
+.ix { border: 0px; background: none; font-size: 22px; line-height: 1; padding: 4px 6px; color: var(--ink); }
+
+.player { margin-top: 16px; background: linear-gradient(135deg, rgb(42, 10, 74), rgb(74, 13, 58) 60%, rgb(107, 15, 47)); border-radius: 22px; padding: 12px; display: grid; gap: 10px; box-shadow: rgb(255, 46, 99) 0px 14px 30px -16px; }
+
+.prow { display: flex; gap: 12px; align-items: center; }
+
+.cover { width: 96px; height: 96px; border-radius: 16px; overflow: hidden; position: relative; flex: 0 0 auto; background: rgb(18, 0, 42); transition: transform 0.1s linear; box-shadow: rgb(255, 46, 99) 0px 8px 22px -8px; }
+
+.cover svg, .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.cover canvas { position: absolute; left: 0px; bottom: 0px; width: 100%; height: 36%; }
+
+.pinfo { flex: 1 1 0%; min-width: 0px; }
+
+.ptitle { font: 800 18px "Bricolage Grotesque", Figtree, system-ui, sans-serif; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.psub { font-size: 13px; color: rgb(232, 191, 255); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.pctl { display: flex; align-items: center; gap: 8px; margin-top: 9px; }
+
+.pctl button { width: 40px; height: 40px; border-radius: 50%; border: 0px; background: rgba(255, 255, 255, 0.14); color: rgb(255, 255, 255); display: grid; place-items: center; }
+
+.pctl button.play { width: 48px; height: 48px; background: var(--pink); }
+
+.pctl svg { width: 19px; height: 19px; fill: currentcolor; }
+
+.pprog { height: 5px; border-radius: 99px; background: rgba(255, 255, 255, 0.18); overflow: hidden; }
+
+.pprog b { display: block; height: 100%; width: 0px; background: linear-gradient(90deg, rgb(178, 107, 255), rgb(255, 46, 99)); }
+
+.plist summary { cursor: pointer; color: rgb(232, 191, 255); font-weight: 600; font-size: 14px; list-style: none; padding: 2px 0px; }
+
+.plist summary::-webkit-details-marker { display: none; }
+
+.plist[open] summary { margin-bottom: 8px; }
+
+.trks { list-style: none; display: grid; gap: 4px; margin-bottom: 10px; }
+
+.trk { display: flex; align-items: center; gap: 6px; border-radius: 10px; background: rgba(255, 255, 255, 0.07); }
+
+.trk.on { background: rgba(255, 46, 99, 0.28); }
+
+.tname { flex: 1 1 0%; text-align: left; background: none; border: 0px; padding: 10px 12px; font-size: 14.5px; font-weight: 600; color: rgb(255, 255, 255); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.tdel { background: none; border: 0px; color: rgb(232, 191, 255); font-size: 20px; padding: 6px 12px; }
+
+.pbtns { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.mini { border: 0px; border-radius: 11px; padding: 9px 12px; font-weight: 600; font-size: 13.5px; background: rgba(255, 255, 255, 0.16); color: rgb(255, 255, 255); }
+
+.chk { display: flex; align-items: center; gap: 8px; margin-top: 10px; font-size: 14px; color: rgb(241, 217, 255); }
+
+.chk input { width: 18px; height: 18px; accent-color: var(--pink); }
+
+.hint { font-size: 12.5px; color: rgb(201, 160, 230); margin-top: 8px; }
+
+.now { margin: -40px 16px 0px; background: rgb(255, 255, 255); border-radius: 22px; padding: 18px 18px 16px; border-left: 8px solid var(--c,var(--blue)); box-shadow: rgba(14, 26, 64, 0.45) 0px 14px 30px -14px; position: relative; }
+
+.nowhead { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+
+.chip { display: inline-block; font-size: 12.5px; font-weight: 600; padding: 3px 10px; border-radius: 99px; background: var(--c,var(--blue)); color: rgb(255, 255, 255); }
+
+.left { font-size: 13.5px; font-weight: 600; color: var(--muted); }
+
+.now h2 { font-size: 24px; line-height: 1.15; margin: 10px 0px 4px; font-weight: 800; }
+
+.now .pr { font-size: 15px; color: rgb(44, 55, 99); }
+
+.pbar { height: 7px; border-radius: 99px; background: var(--line); overflow: hidden; margin-top: 14px; }
+
+.pbar b { display: block; height: 100%; width: 0px; border-radius: 99px; background: var(--c,var(--blue)); transition: width 0.6s; }
+
+.pbar.big { margin: 8px 16px 4px; }
+
+.pbar.big b { background: var(--mint); }
+
+.next { font-size: 13.5px; color: var(--muted); margin-top: 12px; }
+
+.focus { margin: 12px 16px 0px; background: var(--blue); color: rgb(255, 255, 255); border-radius: 18px; padding: 14px 16px; display: flex; align-items: center; gap: 12px; }
+
+.fl { font-size: 13.5px; color: rgb(221, 228, 255); }
+
+.ft { font-style: normal; font-variant: tabular-nums; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: 800; font-stretch: normal; font-size: 38px; font-family: "Bricolage Grotesque", Figtree, system-ui, sans-serif; line-height: 1.05; }
+
+.fb { margin-left: auto; display: flex; gap: 8px; }
+
+.fb button { border: 0px; border-radius: 12px; padding: 10px 16px; font-weight: 600; font-size: 15px; background: var(--sun); color: var(--ink); }
+
+.fb button.ghost { background: rgba(255, 255, 255, 0.18); color: rgb(255, 255, 255); }
+
+.line { margin: 16px 20px 0px; font-size: 15px; color: var(--muted); padding-left: 12px; border-left: 3px solid var(--sun); }
+
+.listhead { display: flex; align-items: baseline; justify-content: space-between; margin: 22px 20px 0px; }
+
+.listhead h2 { font-size: 22px; font-weight: 800; }
+
+.listhead span { font-size: 14px; font-weight: 600; color: var(--muted); }
+
+.list { list-style: none; margin: 6px 16px 0px; }
+
+.item { width: 100%; text-align: left; background: none; border-top: 0px; border-right: 0px; border-left: 0px; border-image: none; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 62px 1fr 28px; gap: 12px; align-items: start; padding: 14px 0px; }
+
+.time { font-size: 12.5px; line-height: 1.35; font-weight: 600; color: var(--muted); }
+
+.body h3 { font-size: 16.5px; font-weight: 700; line-height: 1.25; }
+
+.body h3::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--c); margin-right: 8px; vertical-align: 1px; }
+
+.body p { font-size: 14px; color: var(--muted); margin-top: 3px; }
+
+.check { width: 26px; height: 26px; border-radius: 50%; border: 2px solid rgb(191, 201, 230); display: grid; place-items: center; transition: background 0.2s, border-color 0.2s; flex: 0 0 auto; }
+
+.check svg { opacity: 0; transform: scale(0.4); transition: opacity 0.2s, transform 0.25s; }
+
+.item.done .check, .tk.done .check { background: var(--mint); border-color: var(--mint); }
+
+.item.done .check svg, .tk.done .check svg { opacity: 1; transform: scale(1); }
+
+.item.done h3 { text-decoration: line-through; opacity: 0.5; }
+
+.item.done p { opacity: 0.5; }
+
+.item.cur { background: rgb(255, 255, 255); border-radius: 16px; border-bottom-color: transparent; box-shadow: 0 0 0 2px var(--c); padding: 14px 12px; margin: 6px -12px; }
+
+.item.pop .check { animation: 0.35s ease 0s 1 normal none running pop; }
+
+@keyframes pop { 
+  50% { transform: scale(1.3); }
+}
+
+.foot { margin: 18px 20px 0px; font-size: 13.5px; color: var(--muted); text-align: center; }
+
+.addrow { display: flex; gap: 8px; align-items: center; }
+
+.addrow.big { margin: 10px 16px 0px; flex-wrap: wrap; }
+
+.addrow input[type="text"] { flex: 1 1 0%; min-width: 0px; border: 2px solid var(--line); border-radius: 12px; padding: 10px 12px; font-size: 15px; color: var(--ink); background: rgb(255, 255, 255); }
+
+.addrow input[type="time"] { border: 2px solid var(--line); border-radius: 12px; padding: 9px 8px; font-size: 14.5px; color: var(--ink); background: rgb(255, 255, 255); }
+
+.addrow input:focus { border-color: var(--blue); outline: none; }
+
+.addbtn { border: 0px; border-radius: 12px; padding: 11px 16px; font-weight: 700; font-size: 14.5px; background: var(--blue); color: rgb(255, 255, 255); }
+
+.task { display: flex; align-items: center; gap: 4px; border-bottom: 1px solid var(--line); }
+
+.tk { flex: 1 1 0%; min-width: 0px; display: flex; align-items: center; gap: 12px; background: none; border: 0px; text-align: left; padding: 13px 0px; font-size: 15.5px; }
+
+.tk .tt { flex: 1 1 0%; min-width: 0px; overflow-wrap: anywhere; }
+
+.tk.done .tt { text-decoration: line-through; opacity: 0.5; }
+
+.ttime { font-size: 12.5px; font-weight: 600; color: var(--muted); }
+
+.rm { background: none; border: 0px; font-size: 22px; line-height: 1; color: var(--muted); padding: 8px 10px; }
+
+.empty { padding: 14px 0px; font-size: 14.5px; color: var(--muted); }
+
+.linkbtn { background: none; border: 0px; color: var(--blue); font-weight: 600; font-size: 14px; padding: 6px 0px; }
+
+.clearrow { margin: 8px 16px 0px; }
+
+.page { padding: 26px 16px 0px; }
+
+.page > h1 { font-size: 30px; font-weight: 800; margin: 0px 4px 4px; }
+
+.page > .lead { font-size: 15px; color: var(--muted); margin: 0px 4px 18px; }
+
+.page h2.sec { font-size: 21px; font-weight: 800; margin: 24px 4px 10px; }
+
+.week { display: flex; align-items: center; gap: 12px; background: rgb(255, 255, 255); border-radius: 16px; padding: 14px 16px; margin-bottom: 10px; border: 2px solid transparent; }
+
+.week.today { border-color: var(--blue); }
+
+.week .dn { width: 88px; font: 700 17px "Bricolage Grotesque", Figtree, system-ui, sans-serif; flex: 0 0 auto; }
+
+.week .chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1 1 0%; }
+
+.week .chips span { font-size: 12.5px; font-weight: 600; background: var(--paper); border-radius: 99px; padding: 3px 10px; }
+
+.week .chips span.k { background: rgb(255, 241, 194); }
+
+.week .hrs { font-size: 12.5px; font-weight: 600; color: var(--muted); text-align: right; min-width: 64px; line-height: 1.5; }
+
+.total { margin: 16px 4px 0px; font-size: 15px; }
+
+.count { background: var(--ink); color: rgb(255, 255, 255); border-radius: 26px; padding: 22px 22px 20px; display: grid; gap: 4px; margin-bottom: 16px; }
+
+.count .big { font: 800 72px / 1 "Bricolage Grotesque", Figtree, system-ui, sans-serif; color: var(--sun); }
+
+.count .tx { color: var(--soft); font-size: 15px; }
+
+.count label { margin-top: 12px; font-size: 14px; color: var(--soft); display: grid; gap: 6px; }
+
+.count input { font: 500 16px Figtree, system-ui, sans-serif; padding: 10px 12px; border-radius: 12px; border: 0px; background: rgb(26, 42, 94); color: rgb(255, 255, 255); color-scheme: dark; }
+
+.ready { display: flex; justify-content: space-between; font-weight: 600; font-size: 15px; margin: 0px 4px; }
+
+details.sub { background: rgb(255, 255, 255); border-radius: 16px; margin-bottom: 10px; overflow: hidden; }
+
+details.sub summary { list-style: none; cursor: pointer; padding: 14px 16px; display: grid; grid-template-columns: 1fr auto; gap: 6px 10px; align-items: center; }
+
+details.sub summary::-webkit-details-marker { display: none; }
+
+.sn { font: 700 18px "Bricolage Grotesque", Figtree, system-ui, sans-serif; }
+
+.sp { font-size: 13px; font-weight: 600; color: var(--muted); }
+
+.bar { grid-column: 1 / -1; display: block; height: 7px; border-radius: 99px; background: var(--line); overflow: hidden; }
+
+.bar b { display: block; height: 100%; width: 0px; background: var(--c); transition: width 0.5s; }
+
+details.sub ul { list-style: none; padding: 0px 12px 12px; }
+
+.trow { display: flex; align-items: center; border-top: 1px solid var(--line); }
+
+.tp { flex: 1 1 0%; min-width: 0px; background: none; border: 0px; text-align: left; display: flex; align-items: center; gap: 12px; padding: 11px 4px; font-size: 15px; }
+
+.tp i { width: 22px; height: 22px; border-radius: 7px; border: 2px solid rgb(191, 201, 230); display: grid; place-items: center; flex: 0 0 auto; transition: background 0.2s, border-color 0.2s; }
+
+.tp i svg { opacity: 0; transform: scale(0.4); transition: 0.2s; }
+
+.tp.done i { background: var(--c); border-color: var(--c); }
+
+.tp.done i svg { opacity: 1; transform: scale(1); }
+
+.tp.done span { opacity: 0.5; text-decoration: line-through; }
+
+.tp span { overflow-wrap: anywhere; }
+
+details.sub .addrow { padding-top: 10px; border-top: 1px solid var(--line); }
+
+details.sub .rmg { padding-top: 4px; }
+
+.newgroup { margin-top: 6px; }
+
+.boost { background: var(--blue); color: rgb(255, 255, 255); border-radius: 28px; padding: 26px 22px; min-height: 190px; display: flex; flex-direction: column; justify-content: space-between; gap: 20px; }
+
+.boost blockquote { font: 700 27px / 1.2 "Bricolage Grotesque", Figtree, system-ui, sans-serif; letter-spacing: -0.02em; }
+
+.boost blockquote.swap { animation: 0.45s ease 0s 1 normal none running swap; }
+
+@keyframes swap { 
+  0% { opacity: 0; transform: translateY(14px); }
+  100% { opacity: 1; transform: none; }
+}
+
+.btn { border: 0px; border-radius: 14px; padding: 13px 18px; font-weight: 600; font-size: 16px; background: var(--sun); color: var(--ink); }
+
+.btn.dark { background: var(--ink); color: rgb(255, 255, 255); }
+
+.btn.small { padding: 10px 14px; font-size: 14.5px; background: var(--blue); color: rgb(255, 255, 255); flex: 0 0 auto; }
+
+.row { display: flex; gap: 10px; margin-top: 12px; }
+
+.row .btn { flex: 1 1 0%; }
+
+.rules { margin-top: 22px; }
+
+.rules h2, .why h2 { font-size: 21px; font-weight: 800; margin: 0px 4px 10px; }
+
+.rules ol { list-style: none; display: grid; gap: 10px; }
+
+.rules li { background: rgb(255, 255, 255); border-radius: 16px; padding: 14px 16px; font-size: 15px; }
+
+.rules li b { display: block; font-size: 16.5px; margin-bottom: 2px; }
+
+.setrow { background: rgb(255, 255, 255); border-radius: 16px; padding: 14px 16px; margin-bottom: 10px; display: flex; align-items: center; gap: 12px; }
+
+.setrow div { flex: 1 1 0%; min-width: 0px; }
+
+.setrow b { display: block; font-size: 16px; }
+
+.setrow span.st { display: block; font-size: 13.5px; color: var(--muted); }
+
+.switch { position: relative; width: 52px; height: 30px; flex: 0 0 auto; }
+
+.switch input { position: absolute; inset: 0px; opacity: 0; width: 100%; height: 100%; margin: 0px; cursor: pointer; }
+
+.switch i { position: absolute; inset: 0px; border-radius: 99px; background: rgb(199, 208, 234); transition: background 0.2s; pointer-events: none; }
+
+.switch i::after { content: ""; position: absolute; left: 3px; top: 3px; width: 24px; height: 24px; border-radius: 50%; background: rgb(255, 255, 255); transition: transform 0.2s; }
+
+.switch input:checked + i { background: var(--mint); }
+
+.switch input:checked + i::after { transform: translateX(22px); }
+
+.switch input:focus-visible + i { outline: 3px solid var(--sun); outline-offset: 2px; }
+
+.why { margin-top: 22px; }
+
+.why textarea { width: 100%; min-height: 92px; border: 2px solid var(--line); border-radius: 16px; padding: 12px 14px; font: 500 15.5px Figtree, system-ui, sans-serif; color: var(--ink); background: rgb(255, 255, 255); resize: vertical; }
+
+.why textarea:focus { border-color: var(--blue); outline: none; }
+
+.sign { text-align: center; font-size: 13.5px; color: var(--muted); margin-top: 26px; }
+
+nav { position: fixed; bottom: 0px; left: 50%; transform: translateX(-50%); width: min(100%, 480px); background: rgb(255, 255, 255); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(5, 1fr); padding: 8px 6px calc(8px + env(safe-area-inset-bottom)); z-index: 10; }
+
+nav button { background: none; border: 0px; display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 12px; font-weight: 600; color: var(--muted); padding: 6px 2px; border-radius: 12px; transition: color 0.2s; }
+
+nav button[aria-current="true"] { color: var(--blue); }
+
+nav svg { width: 23px; height: 23px; fill: none; stroke: currentcolor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+#toast { position: fixed; left: 50%; bottom: 92px; transform: translate(-50%, 20px); background: var(--ink); color: rgb(255, 255, 255); padding: 11px 18px; border-radius: 14px; font-size: 14.5px; font-weight: 600; opacity: 0; pointer-events: none; transition: 0.3s; z-index: 20; max-width: 90%; text-align: center; }
+
+#toast.show { opacity: 1; transform: translate(-50%, 0px); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: auto ease 0s 1 normal none running none !important; transition: none !important; }
+  .arc { stroke-dashoffset: 0 !important; }
+}
+------MultipartBoundary--D187toFC8WAkldAmUWLTZrhjV3duzbllQsZdLmDOR3------
